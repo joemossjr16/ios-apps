@@ -12,12 +12,12 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.117 (117)** — Add to Home Screen game icons through Apple’s share sheet, with game artwork and selected storefront. The HTTPS launch page hands off to OpenNOW; iOS may require confirmation or the Open in OpenNOW button. Device build, three targeted simulator tests and launch-page checks passed; signed-device icon/handoff testing remains for installation. Retains full catalog, imports, hardware AV1 HDR and live GPU/color status. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-117)
+- **OpenNOW Debug 1.1.118 (118)** — fixes build 117’s unavailable native Add to Home Screen action. The button opens the game’s browser setup page; in Safari, use Share → Add to Home Screen. Device build, two targeted simulator tests and launch-page checks passed. Signed-device Safari icon/handoff testing remains for installation. Retains full catalog, imports, hardware AV1 HDR and live GPU/color status. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-118)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
 
-Open a game’s details in OpenNOW, select its store, then tap **Add to Home Screen** and choose that action in Apple’s share sheet. Confirm the game name/icon. Tap the saved icon to open the HTTPS game launch page and hand off to OpenNOW. iOS may require an Open confirmation or the page’s **Open in OpenNOW** button. On older iOS, the setup page opens in the browser; use Safari’s Share → Add to Home Screen. The game must remain available to your NVIDIA account. Launch pages run on [GitHub Pages](https://joemossjr16.github.io/ios-apps/launch/); their source is in `launch/`.
+Open a game’s details in OpenNOW, select its store, then tap **Add to Home Screen**. The setup page opens in your default browser and stays open while you save it. In **Safari**, tap **Share → Add to Home Screen** and confirm the game name/icon. Use Safari for this step if another browser is your default. Tap the saved icon to open the game launch page and hand off to OpenNOW. iOS may require an Open confirmation or the page’s **Open in OpenNOW** button. The game must remain available to your NVIDIA account. Launch pages run on [GitHub Pages](https://joemossjr16.github.io/ios-apps/launch/); their source is in `launch/`.
 
 ## Sources and licenses
 
