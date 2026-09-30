@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.120 (120)** — AV1/ProMotion pacing test: explicit maximum display refresh range, fewer compressed-frame copies and recurring CPU pixel reads, asynchronous numeric performance logs. Device build and five targeted simulator tests passed; live iPad FPS/stutter improvement remains to be verified. Retains HEVC Main10 and existing catalog/import/Home Screen features. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-120)
+- **OpenNOW Debug 1.1.121 (121)** — AV1 HDR performance test: bounded asynchronous hardware decoding, direct P010 BT.2020 PQ/HLG Metal rendering and less repeated video-view configuration. Device build and six targeted simulator tests passed; Mac hardware color, orientation and asynchronous decode checks passed. Live iPad FPS/stutter improvement remains to be verified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-121)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
