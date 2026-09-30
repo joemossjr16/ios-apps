@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.122 (122)** — corrects the upside-down direct HDR image from build 121 and disables host dynamic frame control for fixed-FPS requests. Adds clock/CPU/GPU timing while retaining 4K/10-bit HDR and bounded async AV1. Device build, seven targeted tests and hardware color/native-orientation checks passed. Fresh stream required; live iPad FPS/stutter improvement remains to be verified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-122)
+- **OpenNOW Debug 1.1.123 (123)** — tests 1 ms WebRTC zero-playout decode spacing and adds decoder-input/video-sink cadence measurements. Retains hardware AV1, 4K/10-bit HDR and native orientation. Device build and seven targeted tests passed; actual iPad FPS/stutter improvement remains unverified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-123)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
