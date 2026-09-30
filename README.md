@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1 (110)** — AV1 software-frame presentation and display pacing changes. iOS device build and three targeted simulator tests passed. Live smoothness still needs testing. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-110)
+- **OpenNOW Debug 1.1.111 (111)** — hardware AV1 and 10-bit HDR test build. Corrected 10-bit session requests and added 10-bit PQ/HLG display output. iOS device build, seven targeted simulator tests, and hardware decode/HDR Metal samples on an Apple M5 Mac passed. Live iPhone HDR and thermal behavior still need testing. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-111)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Sources and licenses
