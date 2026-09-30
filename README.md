@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.118 (118)** — fixes build 117’s unavailable native Add to Home Screen action. The button opens the game’s browser setup page; in Safari, use Share → Add to Home Screen. Device build, two targeted simulator tests and launch-page checks passed. Signed-device Safari icon/handoff testing remains for installation. Retains full catalog, imports, hardware AV1 HDR and live GPU/color status. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-118)
+- **OpenNOW Debug 1.1.119 (119)** — fixes the hardware H.265 decoder forcing Main10 streams to 8-bit output. Preserves source precision and HDR transfer metadata; clarifies H.264’s 8-bit SDR limitation. Unsigned device build and three targeted simulator tests passed; signed-device HEVC HDR verification remains for installation. Retains catalog, imports and Safari Home Screen links. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-119)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
