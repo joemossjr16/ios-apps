@@ -1,0 +1,44 @@
+{
+  "name": "Joe's iOS Builds",
+  "identifier": "com.joemoss.iosbuilds",
+  "subtitle": "OpenNOW and VoidLink test builds",
+  "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
+  "website": "https://github.com/joemossjr16/ios-apps",
+  "sourceURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/repo.json",
+  "tintColor": "00A8FF",
+  "featuredApps": [
+    "com.opencloudgaming.opennow",
+    "app.feijoa8170.hare8540"
+  ],
+  "apps": [
+    {
+      "name": "OpenNOW Debug",
+      "bundleIdentifier": "com.opencloudgaming.opennow",
+      "developerName": "Local builds by Joe",
+      "version": "1.1",
+      "buildVersion": "110",
+      "versionDate": "2026-09-30",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-110/OpenNOW-iOS-Debug-Performance-110.ipa",
+      "localizedDescription": "OpenNOW contributors; local debug build with AV1 presentation changes.",
+      "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
+      "tintColor": "00A8FF",
+      "size": 13962480,
+      "screenshotURLs": []
+    },
+    {
+      "name": "VoidLink PyroWave",
+      "bundleIdentifier": "app.feijoa8170.hare8540",
+      "developerName": "Local builds by Joe",
+      "version": "0.0.1",
+      "buildVersion": "9",
+      "versionDate": "2026-09-30",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/voidlink-9/VoidLink-PyroWave-Mouse-Scaling-Fix.ipa",
+      "localizedDescription": "VoidLink contributors; local PyroWave build with mouse and desktop scaling changes.",
+      "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/voidlink.png",
+      "tintColor": "00A8FF",
+      "size": 10313178,
+      "screenshotURLs": []
+    }
+  ],
+  "news": []
+}
