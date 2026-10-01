@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.126 (126)** — explicitly disables the additional host resolution/FPS controller found in OpenNOW-Mac, preserving 4K/120 10-bit HDR and native hardware decoding. Device build and four targeted tests passed; live stutter/FPS improvement remains unverified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-126)
+- **OpenNOW Debug 1.1.127 (127)** — optional native NVST receiver with a dedicated video socket, separate hardware decoder and native timing feedback. Enable **Settings → Stream → Connection → Native NVST Receiver (Experimental)**, then start or resume a session. Standard connection remains the default. Device build and 157 targeted simulator tests passed; live iPad performance remains unverified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-127)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
@@ -21,7 +21,7 @@ Open a game’s details in OpenNOW, select its store, then tap **Add to Home Scr
 
 ## Sources and licenses
 
-OpenNOW is based on [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW/tree/kief5555/ios), baseline `95c0f58d42eeed176edd677f604b193c85169d9e`. Its release includes the local patch and build notes. MIT and bundled WebRTC notices are in `licenses/`.
+OpenNOW is based on [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW/tree/kief5555/ios), baseline `95c0f58d42eeed176edd677f604b193c85169d9e`. Its release includes the local patch and build notes. MIT and bundled WebRTC notices are in `licenses/`. Build 127 also adapts protocol modules from [OpenCloudGaming/OpenNOW-Mac](https://github.com/OpenCloudGaming/OpenNOW-Mac/tree/619abf5d831ed382efc070bc519f8c12dda714d4), with pinned OpenSSL and usrsctp static libraries. Their licenses are included in `licenses/`, the IPA and the native library archive. The release includes the cumulative source patch, library archive, reproducible builder and build notes.
 
 VoidLink is based on [joemossjr16/VoidLink-previously-moonlight-zwm](https://github.com/joemossjr16/VoidLink-previously-moonlight-zwm), with upstream [The-Fried-Fish/VoidLink-previously-moonlight-zwm](https://github.com/The-Fried-Fish/VoidLink-previously-moonlight-zwm). Its release includes the local app source snapshot, build scripts and pinned submodule contents. See the GPL license in `licenses/` and dependency notices in the source archive. From the extracted source, run `bash BuildScripts/build-ios-local.sh` with full Xcode installed to build without signing.
 
