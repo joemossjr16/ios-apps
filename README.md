@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.135 (135)** — measured generated/displayed FPS and runtime interpolation-size validation to prevent a reproduced oversized/unwritten frame path. MetalFX presets and resolution labels respect FG size limits. Fresh session needed after selecting an eligible resolution. Existing HDR/decode and earlier fixes retained; device retest required. Unsigned build, 182 tests and combined SDR/PQ GPU checks passed; one simulator skip. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-135) · [Source](https://github.com/joemossjr16/OpenNOW/tree/ios/native-nvst-128)
+- **OpenNOW Debug 1.1.136 (136)** — separate Performance / Native frame-generation quality, reduced generated-frame processing size for 8-bit 4:2:0 and persistent MetalFX pipelines. Real frames and host stream settings retained. Measured generated/displayed FPS; physical-device retest needed. Unsigned build, 184 tests and SDR/PQ GPU checks passed; one simulator skip. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-136) · [Source](https://github.com/joemossjr16/OpenNOW/tree/ios/native-nvst-128)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
