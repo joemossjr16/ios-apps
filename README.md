@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.127 (127)** — optional native NVST receiver with a dedicated video socket, separate hardware decoder and native timing feedback. Enable **Settings → Stream → Connection → Native NVST Receiver (Experimental)**, then start or resume a session. Standard connection remains the default. Device build and 157 targeted simulator tests passed; live iPad performance remains unverified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-127)
+- **OpenNOW Debug 1.1.128 (128)** — PiP frame delivery, iPadOS mouse capture and native decode callback bookkeeping fixes. PiP uses a smaller SDR preview; fullscreen retains 10-bit HDR hardware decoding. Keep **Settings → Stream → Connection → Native NVST Receiver (Experimental)** enabled to test the native transport. Standard connection remains the default. Unsigned device build and 162 targeted simulator tests passed; physical PiP, mouse capture and background behavior still need testing. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-128)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
