@@ -1,0 +1,29 @@
+{
+  "name": "Joe's Metal 4 Test Builds",
+  "identifier": "com.joemoss.iosbuilds.metal4",
+  "subtitle": "Experimental OpenNOW Metal 4 branch",
+  "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
+  "website": "https://github.com/joemossjr16/ios-apps",
+  "sourceURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/metal-4.json",
+  "tintColor": "00A8FF",
+  "featuredApps": [
+    "com.opencloudgaming.opennow"
+  ],
+  "apps": [
+    {
+      "name": "OpenNOW Metal 4 Debug",
+      "bundleIdentifier": "com.opencloudgaming.opennow",
+      "developerName": "Local builds by Joe",
+      "version": "1.1.137",
+      "buildVersion": "137",
+      "versionDate": "2026-10-01",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-metal4-137/OpenNOW-iOS-Debug-Metal4-HDR-137.ipa",
+      "localizedDescription": "Experimental direct 10-bit HDR Metal 4 renderer. To activate: 10-bit HDR on; MetalFX, FG and sharpening off. Status identifies Metal 4 when active. Effects still use the existing pipeline. Retains build 136 features. Unsigned test build; 186 implementation regressions passed and real Mac GPU checks passed; physical-device retest needed.",
+      "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
+      "tintColor": "00A8FF",
+      "size": 16135813,
+      "screenshotURLs": []
+    }
+  ],
+  "news": []
+}

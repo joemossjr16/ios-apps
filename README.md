@@ -28,3 +28,5 @@ VoidLink is based on [joemossjr16/VoidLink-previously-moonlight-zwm](https://git
 ## Updating this feed
 
 Upload a new IPA as a release asset, then update its entry in `repo.json`: version, buildVersion, versionDate, downloadURL and size in bytes. Keep bundleIdentifier stable and make metadata match the IPA. The feed does not establish automatic background installation; that depends on KravaSigner. Build-number-only update detection also needs testing; increment the app marketing version for future releases if the installed signer only compares version.
+
+Experimental Metal 4 builds have a separate [KravaSigner source](https://raw.githubusercontent.com/joemossjr16/ios-apps/main/metal-4.json). Current test: [OpenNOW Metal 4 Debug 1.1.137](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-metal4-137), from the [metal-4 branch](https://github.com/joemossjr16/OpenNOW/tree/metal-4). Direct Metal 4 rendering needs a 10-bit HDR stream with MetalFX, FG and sharpening off. Effects use the existing pipeline during this first port stage.
