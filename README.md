@@ -12,7 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
-- **OpenNOW Debug 1.1.124 (124)** — receiver timing diagnostic build: RTP timestamp versus arrival gaps, full AV1/HEVC decoder-call duration and WebRTC assembly/buffer/processing delay. Keeps media settings unchanged. Device build and six targeted tests passed; no claimed FPS/stutter fix. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-124)
+- **OpenNOW Debug 1.1.125 (125)** — optimized app Swift code with retained debug traces, Apple Game Mode opt-in and corrected native-decoder setting. Keeps 4K/120 HDR intact. Device build and eight targeted tests passed; live performance improvement and Game Mode activation remain unverified. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/opennow-125)
 - **VoidLink PyroWave 0.0.1 (9)** — mouse capture forwarding, visible Windows DPI setting, full-device resolution and PyroWave integration. This unsigned distribution copy has the original signing data removed; the app executable code and version are retained. [Release](https://github.com/joemossjr16/ios-apps/releases/tag/voidlink-9)
 
 ## Home Screen game icons
