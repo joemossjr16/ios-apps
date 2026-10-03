@@ -44,15 +44,17 @@
       "name": "ChargeLens",
       "bundleIdentifier": "com.joemoss.chargelens",
       "developerName": "Local builds by Joe",
-      "version": "1.0",
-      "buildVersion": "1",
+      "version": "1.1",
+      "buildVersion": "2",
       "versionDate": "2026-10-03",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.0/ChargeLens-1.0-unsigned.ipa",
-      "localizedDescription": "Personal charging sensor app for iPhone 18 Pro Max / iOS 27 (requires iOS 26+). Live USB-C input watts, volts and amps, separate battery charging watts, graphs, saved sessions and CSV export. Reads private hardware sensors; no watt estimates from battery percentage. Wireless input watts may be unavailable. 25 simulator tests passed; physical-phone sensor access and accuracy still need verification. Unsigned IPA for installer signing.",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-1.1-unsigned.ipa",
+      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device’s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/chargelens.png",
       "tintColor": "0F8C87",
-      "size": 155424,
-      "screenshotURLs": []
+      "size": 161948,
+      "screenshotURLs": [
+        "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ipad-landscape-demo.png"
+      ]
     }
   ],
   "news": []
