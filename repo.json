@@ -1,14 +1,15 @@
 {
   "name": "Joe's iOS Builds",
   "identifier": "com.joemoss.iosbuilds",
-  "subtitle": "OpenNOW and VoidLink test builds",
+  "subtitle": "OpenNOW, VoidLink, and ChargeLens personal builds",
   "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
   "website": "https://github.com/joemossjr16/ios-apps",
   "sourceURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/repo.json",
   "tintColor": "00A8FF",
   "featuredApps": [
     "com.opencloudgaming.opennow",
-    "app.feijoa8170.hare8540"
+    "app.feijoa8170.hare8540",
+    "com.joemoss.chargelens"
   ],
   "apps": [
     {
@@ -37,6 +38,20 @@
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/voidlink.png",
       "tintColor": "00A8FF",
       "size": 10313178,
+      "screenshotURLs": []
+    },
+    {
+      "name": "ChargeLens",
+      "bundleIdentifier": "com.joemoss.chargelens",
+      "developerName": "Local builds by Joe",
+      "version": "1.0",
+      "buildVersion": "1",
+      "versionDate": "2026-10-03",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.0/ChargeLens-1.0-unsigned.ipa",
+      "localizedDescription": "Personal charging sensor app for iPhone 18 Pro Max / iOS 27 (requires iOS 26+). Live USB-C input watts, volts and amps, separate battery charging watts, graphs, saved sessions and CSV export. Reads private hardware sensors; no watt estimates from battery percentage. Wireless input watts may be unavailable. 25 simulator tests passed; physical-phone sensor access and accuracy still need verification. Unsigned IPA for installer signing.",
+      "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/chargelens.png",
+      "tintColor": "0F8C87",
+      "size": 155424,
       "screenshotURLs": []
     }
   ],
