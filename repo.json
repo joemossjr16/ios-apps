@@ -13,17 +13,17 @@
   ],
   "apps": [
     {
-      "name": "OpenNOW Debug",
+      "name": "OpenNOW Metal 4 (Experimental)",
       "bundleIdentifier": "com.opencloudgaming.opennow",
       "developerName": "Local builds by Joe",
-      "version": "1.1.136",
-      "buildVersion": "136",
-      "versionDate": "2026-10-01",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-136/OpenNOW-iOS-Debug-FG-Performance-136.ipa",
-      "localizedDescription": "Adds independent Frame Generation Quality: Performance / Native in Settings and live Picture controls. Performance reduces generated-frame processing size for 8-bit 4:2:0; real frames and host stream settings stay unchanged. Native retains full-size interpolation. Generated/displayed FPS and safeguards retained. Mac SDR/PQ GPU checks passed; iPhone performance needs testing. Unsigned build, 184 tests passed, zero failed, one simulator skip.",
+      "version": "1.1.146",
+      "buildVersion": "146",
+      "versionDate": "2026-10-04",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-metal4-146/OpenNOW-iOS-Metal4-TouchFix-Diagnostics-146.ipa",
+      "localizedDescription": "Experimental Metal 4 build. Fixes short controller taps with immediate touch-down and a 50 ms minimum tap, explicit cancellation/release, and larger A/B/X/Y buttons. Saves live MetalFX changes for the next stream. Adds packet-loss/jitter diagnostics and a launch override for comparing compatible Metal with identical 10-bit 4:4:4 HDR. Frame generation remains removed. 183 parity tests passed, zero failures, one hardware skip; optimized Release build passed. Motion block artifacts remain under investigation. Unsigned build for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
       "tintColor": "00A8FF",
-      "size": 16112084,
+      "size": 14186325,
       "screenshotURLs": []
     },
     {
@@ -48,7 +48,7 @@
       "buildVersion": "2",
       "versionDate": "2026-10-03",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-1.1-unsigned.ipa",
-      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device’s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
+      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device\u2019s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/chargelens.png",
       "tintColor": "0F8C87",
       "size": 161948,
