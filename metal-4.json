@@ -11,17 +11,17 @@
   ],
   "apps": [
     {
-      "name": "OpenNOW Metal 4 Debug",
+      "name": "OpenNOW Metal 4",
       "bundleIdentifier": "com.opencloudgaming.opennow",
       "developerName": "Local builds by Joe",
-      "version": "1.1.144",
-      "buildVersion": "144",
-      "versionDate": "2026-10-01",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-metal4-144/OpenNOW-iOS-Debug-Metal4-Full-144.ipa",
-      "localizedDescription": "Fixes Color/HDR preference saving: selecting eight-bit disables HDR and saves both choices immediately. The picker shows effective request color. HDR off preserves separately chosen chroma/depth; ten-bit SDR and 4:4:4 SDR remain available. Color changes apply to a fresh host session; resume keeps the existing format. All Metal 4 rendering/effects and desktop native touch retained. 209 tests passed, zero failures, one hardware skip; unchanged rendering retains build-143 GPU validation. Unsigned experimental build.",
+      "version": "1.1.145",
+      "buildVersion": "145",
+      "versionDate": "2026-10-04",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-metal4-145/OpenNOW-iOS-Metal4-NoFrameGeneration-145.ipa",
+      "localizedDescription": "Removes experimental frame generation and fixes a reproduced Settings navigation-path crash. Retains Metal 4 SDR/PQ/HLG rendering, HDR, sharpening, MetalFX upscaling, touch, pointer input and PiP. Old frame-generation preferences are ignored. Optimized Release build; 328 tests passed, zero failures, one hardware skip. iPad-sidebar and iPhone-tab-bar navigation regressions and Mac GPU checks passed. Physical-device streaming verification remains pending. Unsigned build for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
       "tintColor": "00A8FF",
-      "size": 16202612,
+      "size": 14188714,
       "screenshotURLs": []
     }
   ],
