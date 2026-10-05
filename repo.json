@@ -1,17 +1,32 @@
 {
   "name": "Joe's iOS Builds",
   "identifier": "com.joemoss.iosbuilds",
-  "subtitle": "OpenNOW, VoidLink, and ChargeLens personal builds",
+  "subtitle": "OpenNOW, VoidLink, ChargeLens, and Husk builds",
   "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
   "website": "https://github.com/joemossjr16/ios-apps",
   "sourceURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/repo.json",
   "tintColor": "00A8FF",
   "featuredApps": [
+    "com.husk.app",
     "com.opencloudgaming.opennow",
     "app.feijoa8170.hare8540",
     "com.joemoss.chargelens"
   ],
   "apps": [
+    {
+      "name": "Husk",
+      "bundleIdentifier": "com.husk.app",
+      "developerName": "Husk contributors; local build by Joe",
+      "version": "0.6.1",
+      "buildVersion": "9",
+      "versionDate": "2026-10-05",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1/Husk-0.6.1-65d0d12.ipa",
+      "localizedDescription": "Husk 0.6.1, built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Run Android apps on iPhone and iPad through a local QEMU-based Android environment. Requires JIT enabled by a compatible signing/installation tool. Unsigned IPA for installer signing.",
+      "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/husk.png",
+      "tintColor": "00A8FF",
+      "size": 43193967,
+      "screenshotURLs": []
+    },
     {
       "name": "OpenNOW Metal 4 (Experimental)",
       "bundleIdentifier": "com.opencloudgaming.opennow",
@@ -20,7 +35,7 @@
       "buildVersion": "159",
       "versionDate": "2026-10-04",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-rumble-159/OpenNOW-iOS-Game-Rumble-Diagnostics-159.ipa",
-      "localizedDescription": "Raises the live controller rumble maximum to 64\u00d7 gain: the previous 48\u00d7 maximum is now 75%, with saved gain preserved. Adds two learnable controller shortcuts for Stream HUD or Toggle stats in Settings and stream controls. HUD navigation uses D-pad/left stick, A to select, B to go back, and left/right to adjust selected sliders. Game input is neutral while the HUD is open; held inputs are gated until release after closing. Back-button learning uses inputs actually exposed by iOS: if a back button mirrors a front button, the shortcut affects both. Configure an unused input in GameSir for a dedicated shortcut if needed. GameSir motor output remains on the physically confirmed ExternalAccessory transport; phone fallback is separate. No audio-driven haptics in this build. Physical back-button/HUD testing is still required. Release build and 341 automated tests pass; one hardware test is skipped. Unsigned IPA for installer signing.",
+      "localizedDescription": "Raises the live controller rumble maximum to 64× gain: the previous 48× maximum is now 75%, with saved gain preserved. Adds two learnable controller shortcuts for Stream HUD or Toggle stats in Settings and stream controls. HUD navigation uses D-pad/left stick, A to select, B to go back, and left/right to adjust selected sliders. Game input is neutral while the HUD is open; held inputs are gated until release after closing. Back-button learning uses inputs actually exposed by iOS: if a back button mirrors a front button, the shortcut affects both. Configure an unused input in GameSir for a dedicated shortcut if needed. GameSir motor output remains on the physically confirmed ExternalAccessory transport; phone fallback is separate. No audio-driven haptics in this build. Physical back-button/HUD testing is still required. Release build and 341 automated tests pass; one hardware test is skipped. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
       "tintColor": "00A8FF",
       "size": 14294724,
@@ -48,7 +63,7 @@
       "buildVersion": "2",
       "versionDate": "2026-10-03",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-1.1-unsigned.ipa",
-      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device\u2019s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
+      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device’s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/chargelens.png",
       "tintColor": "0F8C87",
       "size": 161948,
