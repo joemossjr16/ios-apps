@@ -20,7 +20,7 @@
       "buildVersion": "149",
       "versionDate": "2026-10-04",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-metal4-149/OpenNOW-iOS-Metal4-DirectPresentation-149.ipa",
-      "localizedDescription": "Tests direct Metal 4 presentation without the copy bridge by registering CAMetalLayer residency with both GPU queues, following Apple\u2019s sample. Preserves MetalFX and HEVC 10-bit 4:4:4 HDR. Release build, 334 automated tests and 168 Mac GPU checks pass, including 12 actual HDR/MetalFX drawable frames. iPhone verification pending; build 148 remains the physically verified working fallback. Bridge diagnostic override retained. Prior input/navigation fixes remain; frame generation absent. Unsigned build for installer signing.",
+      "localizedDescription": "Physical iPhone test confirms no blocks with direct Metal 4 presentation, bridge off, active MetalFX and HEVC 10-bit 4:4:4 HDR. Registers CAMetalLayer residency with both GPU queues as in Apple\u2019s sample. Release build, 334 automated tests and 168 Mac GPU checks pass. Consistent 120 FPS, a separate decoder recovery event and iPad behavior remain unverified/unresolved. Diagnostic bridge fallback retained; prior input/navigation fixes remain and frame generation is absent. Unsigned build for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
       "tintColor": "00A8FF",
       "size": 14194799,
