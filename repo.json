@@ -18,13 +18,13 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Husk contributors; local build by Joe",
       "version": "0.6.1",
-      "buildVersion": "10",
+      "buildVersion": "11",
       "versionDate": "2026-10-05",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-ipad/Husk-0.6.1-build10-iPad.ipa",
-      "localizedDescription": "Husk 0.6.1 (build 10) adds iPad support: the app and JIT helper target iPhone and iPad, and iPad supports all four orientations. Existing adaptive screens reflow for iPad. Built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Runs Android apps through a local QEMU-based environment. Requires JIT enabled by a compatible signing/installation tool. Unsigned IPA for installer signing.",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-touchscreen/Husk-0.6.1-build11-iPad-Touch.ipa",
+      "localizedDescription": "Husk 0.6.1 (build 11) improves iPad display fit using an aspect-matched Android panel at a bounded ~0.3-megapixel workload. Finger input uses direct touchscreen events to avoid a mouse cursor, with a legacy mouse-touch fallback in Settings → Input. Adds iPad support to the app and JIT helper. First launch cold-boots Android once to save a snapshot matching the new virtual touchscreen/display hardware; existing Android files are retained. Built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Requires JIT. Unsigned IPA; direct touchscreen driver compatibility still needs confirmation on the target iPad.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/husk.png",
       "tintColor": "00A8FF",
-      "size": 51558337,
+      "size": 51564050,
       "screenshotURLs": []
     },
     {
