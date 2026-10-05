@@ -18,13 +18,13 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Husk contributors; local build by Joe",
       "version": "0.6.1",
-      "buildVersion": "9",
+      "buildVersion": "10",
       "versionDate": "2026-10-05",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1/Husk-0.6.1-65d0d12.ipa",
-      "localizedDescription": "Husk 0.6.1, built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Run Android apps on iPhone and iPad through a local QEMU-based Android environment. Requires JIT enabled by a compatible signing/installation tool. Unsigned IPA for installer signing.",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-ipad/Husk-0.6.1-build10-iPad.ipa",
+      "localizedDescription": "Husk 0.6.1 (build 10) adds iPad support: the app and JIT helper target iPhone and iPad, and iPad supports all four orientations. Existing adaptive screens reflow for iPad. Built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Runs Android apps through a local QEMU-based environment. Requires JIT enabled by a compatible signing/installation tool. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/husk.png",
       "tintColor": "00A8FF",
-      "size": 43193967,
+      "size": 51558337,
       "screenshotURLs": []
     },
     {
