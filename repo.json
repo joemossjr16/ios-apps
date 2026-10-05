@@ -18,13 +18,13 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Husk contributors; local build by Joe",
       "version": "0.6.1",
-      "buildVersion": "11",
+      "buildVersion": "12",
       "versionDate": "2026-10-05",
-      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-touchscreen/Husk-0.6.1-build11-iPad-Touch.ipa",
-      "localizedDescription": "Husk 0.6.1 (build 11) improves iPad display fit using an aspect-matched Android panel at a bounded ~0.3-megapixel workload. Finger input uses direct touchscreen events to avoid a mouse cursor, with a legacy mouse-touch fallback in Settings → Input. Adds iPad support to the app and JIT helper. First launch cold-boots Android once to save a snapshot matching the new virtual touchscreen/display hardware; existing Android files are retained. Built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Requires JIT. Unsigned IPA; direct touchscreen driver compatibility still needs confirmation on the target iPad.",
+      "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-touchfix/Husk-0.6.1-build12-iPad-TouchFix.ipa",
+      "localizedDescription": "Husk 0.6.1 (build 12) fixes iPad touch input: uses the known mouse-compatible touch path by default, restoring taps and drags. The direct-touch option remains experimental. Keeps an aspect-matched iPad Android panel at a bounded ~0.3-megapixel workload. First launch cold-boots Android once to save a snapshot matching the virtual touchscreen/display hardware; existing Android files are retained. Built from Leviidev/Husk commit 65d0d122a139fa7ed53db6df84ed6737e3216d29. Requires JIT. Unsigned IPA.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/husk.png",
       "tintColor": "00A8FF",
-      "size": 51564050,
+      "size": 51564185,
       "screenshotURLs": []
     },
     {
