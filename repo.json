@@ -35,7 +35,7 @@
       "buildVersion": "210",
       "versionDate": "2026-10-06",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/opennow-nis-fix-210/OpenNOW-iOS-NIS-Fix-210.ipa",
-      "localizedDescription": "Build 210 reduces NIS allocation pressure on target changes. Retires old Metal 4 texture pools safely and avoids a duplicate NIS fallback pool while preparation finishes. Keeps Screen/1.5×/2× targets, MetalFX/NIS/FSR1, adaptive HDR and rendering/controller fixes. Full-size NIS checks at 3840×1620 and 5120×2160, Metal 4 handoff, simulator check and Release archive passed. Reported iPhone freeze requires device verification. Unsigned IPA for KravaSigner.",
+      "localizedDescription": "Build 210 reduces NIS allocation pressure on target changes. Retires old Metal 4 texture pools safely and avoids a duplicate NIS fallback pool while preparation finishes. Keeps Screen/1.5\u00d7/2\u00d7 targets, MetalFX/NIS/FSR1, adaptive HDR and rendering/controller fixes. Full-size NIS checks at 3840\u00d71620 and 5120\u00d72160, Metal 4 handoff, simulator check and Release archive passed. Reported iPhone freeze requires device verification. Unsigned IPA for KravaSigner.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/opennow.png",
       "tintColor": "00A8FF",
       "size": 13180524,
@@ -63,7 +63,7 @@
       "buildVersion": "2",
       "versionDate": "2026-10-03",
       "downloadURL": "https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-1.1-unsigned.ipa",
-      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device’s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
+      "localizedDescription": "Charging sensor app for iPhone and iPad (iOS/iPadOS 26+). Live input watts, volts and amps, separate battery watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Reads this device\u2019s private hardware sensors; availability depends on the device and OS. 26 tests passed on each simulator. Unsigned IPA for installer signing.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/chargelens.png",
       "tintColor": "0F8C87",
       "size": 161948,
@@ -82,7 +82,7 @@
       "localizedDescription": "PlayStation Remote Play and PS Plus cloud streaming for iPhone and iPad (iOS/iPadOS 17+), from the same codebase as the Mac app. New in 0.8.0: display out, so a connected monitor or TV (HDMI, USB-C or AirPlay) shows the stream full screen while the device keeps the controller; toggle in Settings. Not yet run on a real external display. Also multiplayer (couch co-op) on a PlayStation 5 at home, verified on a real PS5 from the Mac app only. Local discovery needs a multicast entitlement a sideload signature cannot carry, so pair by the console's IP address. Unsigned for distribution (ad-hoc only); the installer signs it. AGPL-3.0 with OpenSSL exception; source is in the release.",
       "iconURL": "https://raw.githubusercontent.com/joemossjr16/ios-apps/main/icons/kumoplay.png",
       "tintColor": "5AD4FF",
-      "size": 3955485,
+      "size": 3958276,
       "screenshotURLs": []
     }
   ],
