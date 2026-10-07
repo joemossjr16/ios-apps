@@ -1,6 +1,6 @@
 # Joe’s iOS Builds
 
-KravaSigner source for locally built OpenNOW, VoidLink, ChargeLens, and Husk IPAs.
+KravaSigner source for locally built OpenNOW, VoidLink, ChargeLens, Husk, and KumoPlay IPAs.
 
 Add this source in KravaSigner:
 
@@ -12,6 +12,7 @@ The feed follows the flat JSON format used by the CyPwn website’s KravaSigner 
 
 ## Builds
 
+- **KumoPlay 0.6.0 (7), iPhone and iPad** — PlayStation Remote Play and PS Plus cloud streaming, from the same codebase as the Mac app. On-screen controller, hardware-keyboard bindings, play profiles, Connection Doctor and magnifier. Requires iOS/iPadOS 17+. Unsigned for distribution (ad-hoc only). Builds for device and Simulator and 93 logic checks pass on macOS and in the iPhone Simulator; **not yet tested on a physical device**. Local discovery needs a multicast entitlement that sideload signing cannot carry, so pair by the console's IP address. AGPL-3.0 with OpenSSL exception; source included. [Download IPA](https://github.com/joemossjr16/ios-apps/releases/download/kumoplay-0.6.0/KumoPlay-0.6.0-build7-iPhone-iPad.ipa) · [Release and source](https://github.com/joemossjr16/ios-apps/releases/tag/kumoplay-0.6.0).
 - **Husk 0.6.1 (12), iPhone and iPad** — fixes iPad touch input by using the known mouse-compatible touch path by default, restoring taps and drags; direct touchscreen remains experimental. Keeps the aspect-matched iPad panel at a bounded ~0.3-megapixel workload. First launch cold-boots Android once to create a snapshot for the virtual touchscreen/display hardware; existing Android files are retained. Requires JIT. Unsigned IPA built from [Leviidev/Husk](https://github.com/Leviidev/Husk) commit `65d0d122a139fa7ed53db6df84ed6737e3216d29`. [Download IPA](https://github.com/joemossjr16/ios-apps/releases/download/husk-0.6.1-touchfix/Husk-0.6.1-build12-iPad-TouchFix.ipa) · [Release, source patch, and notes](https://github.com/joemossjr16/ios-apps/releases/tag/husk-0.6.1-touchfix).
 - **ChargeLens 1.1 (2), iPhone and iPad** — live charging watts, graphs, saved sessions and CSV export. Correct device-specific sensor labels and a wider iPad landscape layout. Requires iOS/iPadOS 26+. Unsigned IPA; 26 tests passed on each simulator. [Download IPA](https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-1.1-unsigned.ipa) · [Release and source](https://github.com/joemossjr16/ios-apps/releases/tag/chargelens-1.1).
 - **ChargeLens for Mac 1.0** — native SwiftUI app for the Mac’s own charging telemetry and a connected iPhone over USB, with a menu bar readout, graphs, saved sessions and CSV export. Universal Apple silicon/Intel app; requires macOS 15+. Ad-hoc signed, not notarized. 47 tests passed; Mac readings tested on real hardware. Physical USB iPhone readings still need verification. [Download Mac ZIP](https://github.com/joemossjr16/ios-apps/releases/download/chargelens-1.1/ChargeLens-Mac-1.0-universal.zip).
